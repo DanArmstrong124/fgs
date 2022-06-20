@@ -76,17 +76,13 @@ setInterval(function(){
         sertext.classList.add('servicetextm');
     }
 
-    if (scrollY < 2400){
+    if ((scrollY < 2400)||(scrollY > 2901)){
         serone.classList.add('serviceone');
         serone.classList.remove('serviceonem');
     }
-    if (scrollY > 2401){
+    if ((scrollY > 2401)&&(scrollY < 2900)){
         serone.classList.remove('serviceone');
         serone.classList.add('serviceonem');
-    }
-    if (scrollY > 2900){
-        serone.classList.add('serviceone');
-        serone.classList.remove('serviceonem');
     }
 
     if (scrollY < 3200){
