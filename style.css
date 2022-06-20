@@ -148,11 +148,26 @@
     transition: all 3s;
 }
 
-.sot{}
+.sot{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+}
 
-.stt{}
+.stt{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 60%;
+}
 
-.stht{}
+.stht{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+}
 
 .soi{}
 
