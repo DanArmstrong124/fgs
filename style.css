@@ -6,38 +6,33 @@ nav {
 }
 
 .title{
-    position: absolute;
-    top: 50%;
 }
 
 #fulltitle {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 35px;
+    /* transform: translateY(-50%); */
     left: 50px;
     display: inline-block;
 }
 
 #titlef {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -111px;
-    display: inline-block;
+    top: 35px;
+    /* transform: translateY(-50%); */
+    left: 50px;
 }
 
 #titleh {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -57px;
-    display: inline-block;
+    top: 35px;
+    /* transform: translateY(-50%); */
+    left: 117px;
 }
 
 #titles {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -39px;
-    display: inline-block;
+    top: 35px;
+    /* transform: translateY(-50%); */
+    left: 151px;
 }
