@@ -103,3 +103,8 @@
     transform: translateX(-48%);
     transition: all 5s;
 }
+
+.bgm {
+    background-color: #78cf78;
+    transition: all 5s;
+}

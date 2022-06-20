@@ -62,3 +62,8 @@
     transform: translateX(-48%);
     transition: all 5s;
 }
+
+.bg {
+    background-color: white;
+    transition: all 5s;
+}
