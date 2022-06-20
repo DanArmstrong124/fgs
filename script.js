@@ -67,11 +67,11 @@ setInterval(function(){
         body.classList.remove('bg');
     }
 
-    if (scrollY < 1400){
+    if (scrollY < 2000){
         sertext.classList.add('servicetext');
         sertext.classList.remove('servicetextm');
     }
-    if (scrollY > 1401){
+    if (scrollY > 2001){
         sertext.classList.remove('servicetext');
         sertext.classList.add('servicetextm');
     }
