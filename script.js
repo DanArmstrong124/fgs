@@ -76,20 +76,20 @@ setInterval(function(){
         sertext.classList.add('servicetextm');
     }
 
-    if ((scrollY < 2400)||(scrollY > 2901)){
+    if ((scrollY < 2400)||(scrollY > 3201)){
         serone.classList.add('serviceone');
         serone.classList.remove('serviceonem');
     }
-    if ((scrollY > 2401)&&(scrollY < 2900)){
+    if ((scrollY > 2401)&&(scrollY < 3200)){
         serone.classList.remove('serviceone');
         serone.classList.add('serviceonem');
     }
 
-    if (scrollY < 3200){
+    if (scrollY < 3600){
         sertwo.classList.add('servicetwo');
         sertwo.classList.remove('servicetwom');
     }
-    if (scrollY > 3201){
+    if (scrollY > 3601){
         sertwo.classList.remove('servicetwo');
         sertwo.classList.add('servicetwom');
     }
