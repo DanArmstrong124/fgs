@@ -40,6 +40,7 @@ setInterval(function(){
         tf.classList.add('titlefm');
         th.classList.add('titlehm');
         ts.classList.add('titlesm');
+        tbg.classList.add('titlebg')
     }
     if (scrollY > 1001){
         tf.classList.add('titlefmt');
