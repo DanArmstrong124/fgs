@@ -111,6 +111,7 @@
 
 .servicetextm {
     position: fixed;
+    color: white;
     top: 200px;
     left: 50%;
     transform: translateX(-50%);
