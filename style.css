@@ -1,8 +1,12 @@
-.title{
+nav {
     height: 100px;
     position: fixed;
     width: 100%;
     background: #f7f7f7;
+}
+
+.title{
+
 }
 
 #fulltitle {
@@ -18,5 +22,21 @@
     top: 50%;
     transform: translateY(-50%);
     left: -111px;
+    display: inline-block;
+}
+
+#titleh {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -57px;
+    display: inline-block;
+}
+
+#titles {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -39px;
     display: inline-block;
 }
