@@ -67,3 +67,8 @@
     background-color: white;
     transition: all 5s;
 }
+
+#top{
+    position: absolute;
+    top:5px
+}
