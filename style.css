@@ -51,5 +51,14 @@
 }
 
 .titlebg {
-    opacity: 0px;
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    background: white;
+    position: fixed;
+    border-radius: 50%;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-48%);
+    transition: all 5s;
 }

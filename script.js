@@ -4,6 +4,7 @@ var tf = document.getElementById('titlef');
 var th = document.getElementById('titleh');
 var ts = document.getElementById('titles');
 var tbg = document.getElementById('tbg')
+var body = document.body;
 
 setInterval(function(){
     if (scrollY < 249) {
@@ -12,6 +13,7 @@ setInterval(function(){
         tf.classList.add('titlef');
         th.classList.add('titleh');
         ts.classList.add('titles');
+        body.style.backgroundColor = "white";
 
         nav.classList.remove('navm');
         ft.classList.remove('fulltitlem');
@@ -40,9 +42,12 @@ setInterval(function(){
         tf.classList.add('titlefmt');
         th.classList.add('titlehmt');
         ts.classList.add('titlesmt');
+        body.style.backgroundColor = "#78cf78";
+        tbg.classList.add('titlebgm');
 
         tf.classList.remove('titlefm');
         th.classList.remove('titlehm');
         ts.classList.remove('titlesm');
+        tbg.classList.remove('titlebg');
     }
 },50);

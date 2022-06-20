@@ -90,3 +90,16 @@
     text-shadow: 0px 4px 4px #282828;
     transition: all 5s;
 }
+
+.titlebgm {
+    opacity: 100;
+    width: 200px;
+    height: 200px;
+    background: white;
+    position: fixed;
+    border-radius: 50%;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-48%);
+    transition: all 5s;
+}
