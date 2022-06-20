@@ -1,17 +1,17 @@
 nav {
     height: 100px;
-    position: fixed;
+    position: absolute;
     width: 100%;
     background: #f7f7f7;
 }
 
 .title{
-    position: relative;
+    position: absolute;
     top: 50%;
 }
 
 #fulltitle {
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 50px;
@@ -19,7 +19,7 @@ nav {
 }
 
 #titlef {
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: -111px;
@@ -27,7 +27,7 @@ nav {
 }
 
 #titleh {
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: -57px;
@@ -35,7 +35,7 @@ nav {
 }
 
 #titles {
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: -39px;
