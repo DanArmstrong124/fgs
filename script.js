@@ -5,7 +5,7 @@ var th = document.getElementById('titleh');
 var ts = document.getElementById('titles');
 
 setInterval(function(){
-    if (scrollY < 60) {
+    if (scrollY < 249) {
         nav.classList.add('nav');
         ft.classList.add('fulltitle');
         tf.classList.add('titlef');
@@ -18,7 +18,7 @@ setInterval(function(){
         th.classList.remove('titlehm');
         ts.classList.remove('titlesm');
     }
-    if ((scrollY > 150)&&(scrollY < 400)){
+    if ((scrollY > 250)&&(scrollY < 1000)){
         nav.classList.remove('nav');
         ft.classList.remove('fulltitle');
         tf.classList.remove('titlef');
@@ -35,7 +35,7 @@ setInterval(function(){
         th.classList.add('titlehm');
         ts.classList.add('titlesm');
     }
-    if (scrollY > 400){
+    if (scrollY > 1001){
         tf.classList.add('titlefmt');
         th.classList.add('titlehmt');
         ts.classList.add('titlesmt');
