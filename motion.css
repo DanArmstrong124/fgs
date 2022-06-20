@@ -3,7 +3,7 @@
     position: fixed;
     width: 100%;
     background: #f7f7f700;
-    
+
 }
 
 .fulltitlem {
@@ -40,6 +40,7 @@
 }
 
 .titlefmt {
+    position: fixed;
     top: 34px;
     font-size: 30px;
     transform: translateX(-50%);
@@ -54,6 +55,7 @@
 }
 
 .titlehmt {
+    position: fixed;
     top: 34px;
     font-size: 30px;
     transform: translateX(-50%);
@@ -68,6 +70,7 @@
 }
 
 .titlesmt {
+    position: fixed;
     top: 34px;
     font-size: 30px;
     transform: translateX(-50%);
