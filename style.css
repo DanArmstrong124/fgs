@@ -36,3 +36,11 @@ nav {
     /* transform: translateY(-50%); */
     left: 151px;
 }
+
+#logo {
+    position: absolute;
+    width: 100px;
+    top: 5px;
+    transform: translateX(-50%);
+    left: 50%;
+}
