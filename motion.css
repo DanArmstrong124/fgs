@@ -108,3 +108,14 @@
     background-color: #78cf78;
     transition: all 5s;
 }
+
+.servicetextm {
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    z-index: 0;
+    opacity: 100;
+    transition: all 3s;
+}

@@ -5,6 +5,10 @@ var th = document.getElementById('titleh');
 var ts = document.getElementById('titles');
 var tbg = document.getElementById('tbg');
 var body = document.getElementById('body');
+var sertext = document.getElementById('servicetext');
+var serone = document.getElementById('serviceone');
+var sertwo = document.getElementById('servicetwo');
+var serthree = document.getElementById('servicethree');
 
 setInterval(function(){
     if (scrollY < 249) {
@@ -51,7 +55,7 @@ setInterval(function(){
         ts.classList.add('titlesmt');
         body.classList.add('bgm')
         tbg.classList.add('titlebgm');
-        
+
         ft.classList.add('fulltitlem');
         ft.classList.remove('fulltitle');
 
@@ -61,5 +65,14 @@ setInterval(function(){
         ts.classList.remove('titlesm');
         tbg.classList.remove('titlebg');
         body.classList.remove('bg');
+    }
+
+    if (scrollY < 1400){
+        sertext.classList.add('servicetext');
+        sertext.classList.remove('servicetextm');
+    }
+    if (scrollY > 1401){
+        sertext.classList.remove('servicetext');
+        sertext.classList.add('servicetextm');
     }
 },50);
