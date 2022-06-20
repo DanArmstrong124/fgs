@@ -1,6 +1,6 @@
 nav {
     height: 100px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     background: #f7f7f7;
 }
@@ -9,7 +9,7 @@ nav {
 }
 
 #fulltitle {
-    position: absolute;
+    position: fixed;
     top: 35px;
     /* transform: translateY(-50%); */
     left: 50px;
@@ -17,28 +17,28 @@ nav {
 }
 
 #titlef {
-    position: absolute;
+    position: fixed;
     top: 35px;
     /* transform: translateY(-50%); */
     left: 50px;
 }
 
 #titleh {
-    position: absolute;
+    position: fixed;
     top: 35px;
     /* transform: translateY(-50%); */
     left: 117px;
 }
 
 #titles {
-    position: absolute;
+    position: fixed;
     top: 35px;
     /* transform: translateY(-50%); */
     left: 151px;
 }
 
 #logo {
-    position: absolute;
+    position: fixed;
     width: 100px;
     top: 5px;
     transform: translateX(-50%);
