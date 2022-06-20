@@ -83,9 +83,16 @@
     background: #ffffff94;
     border-radius: 5px;
     transition: all .5s;
+    text-align: center;
 }
 
 #topbtn:hover {
     background: white;
     transition: all .5s;
+}
+
+#topbtnicon{
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
 }
