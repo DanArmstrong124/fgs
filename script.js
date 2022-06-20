@@ -45,6 +45,7 @@ setInterval(function(){
         body.classList.remove('bgm')
     }
     if (scrollY > 1001){
+        nav.classList.add('navm');
         tf.classList.add('titlefmt');
         th.classList.add('titlehmt');
         ts.classList.add('titlesmt');
@@ -52,6 +53,7 @@ setInterval(function(){
         tbg.classList.add('titlebgm');
 
         tf.classList.remove('titlefm');
+        nav.classList.remove('nav');
         th.classList.remove('titlehm');
         ts.classList.remove('titlesm');
         tbg.classList.remove('titlebg');
