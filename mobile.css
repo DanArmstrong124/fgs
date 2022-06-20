@@ -38,5 +38,51 @@
         left: 151px;
         transition: all 5s;
     }
+    .titlefmt {
+        position: fixed;
+        top: 34px;
+        font-size: 30px;
+        transform: translateX(-50%);
+        left: 44%;
+        z-index: 5;
+        color: white;
+        color: wheat;
+        /* background-color: black; */
+        font-size: 56px;
+        -webkit-text-stroke: 1px #282828;
+        text-shadow: 0px 4px 4px #282828;
+        transition: all 5s;
+    }
     
+    .titlehmt {
+        position: fixed;
+        top: 34px;
+        font-size: 30px;
+        transform: translateX(-50%);
+        left: 51.5%;
+        z-index: 5;
+        color: white;
+        color: wheat;
+        /* background-color: black; */
+        font-size: 56px;
+        -webkit-text-stroke: 1px #282828;
+        text-shadow: 0px 4px 4px #282828;
+        transition: all 5s;
+    }
+    
+    .titlesmt {
+        position: fixed;
+        top: 34px;
+        font-size: 30px;
+        transform: translateX(-50%);
+        left: 59%;
+        z-index: 5;
+        color: white;
+        color: wheat;
+        /* background-color: black; */
+        font-size: 56px;
+        -webkit-text-stroke: 1px #282828;
+        text-shadow: 0px 4px 4px #282828;
+        transition: all 5s;
+    }
   }
