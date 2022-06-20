@@ -6,7 +6,8 @@ nav {
 }
 
 .title{
-
+    position: relative;
+    top: 50%;
 }
 
 #fulltitle {
