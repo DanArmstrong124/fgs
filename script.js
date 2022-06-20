@@ -85,12 +85,21 @@ setInterval(function(){
         serone.classList.add('serviceonem');
     }
 
-    if (scrollY < 3600){
+    if ((scrollY < 3600)||(scrollY > 4401)){
         sertwo.classList.add('servicetwo');
         sertwo.classList.remove('servicetwom');
     }
-    if (scrollY > 3601){
+    if ((scrollY > 3601)&&(scrollY < 4400)){
         sertwo.classList.remove('servicetwo');
         sertwo.classList.add('servicetwom');
+    }
+
+    if ((scrollY < 5000)||(scrollY > 5801)){
+        serthree.classList.add('servicethree');
+        serthree.classList.remove('servicethreem');
+    }
+    if ((scrollY > 5001)&&(scrollY < 5800)){
+        serthree.classList.remove('servicethree');
+        serthree.classList.add('servicethreem');
     }
 },50);
