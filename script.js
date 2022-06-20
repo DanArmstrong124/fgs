@@ -18,7 +18,7 @@ setInterval(function(){
         th.classList.remove('titlehm');
         ts.classList.remove('titlesm');
     }
-    if (scrollY > 60 < 120){
+    if ((scrollY > 60)&&(scrollY < 120)){
         nav.classList.remove('nav');
         ft.classList.remove('fulltitle');
         tf.classList.remove('titlef');
