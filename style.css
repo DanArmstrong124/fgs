@@ -49,3 +49,7 @@
     transform: translateX(-50%);
     left: 50%;
 }
+
+.titlebg {
+    opacity: 0px;
+}

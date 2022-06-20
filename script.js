@@ -3,6 +3,7 @@ var ft = document.getElementById('fulltitle');
 var tf = document.getElementById('titlef');
 var th = document.getElementById('titleh');
 var ts = document.getElementById('titles');
+var tbg = document.getElementById('tbg')
 
 setInterval(function(){
     if (scrollY < 249) {
