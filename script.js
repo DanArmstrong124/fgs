@@ -32,6 +32,8 @@ setInterval(function(){
         th.classList.remove('titlehmt');
         ts.classList.remove('titlesmt');
 
+        tbg.classList.remove('titlebgm');
+
         nav.classList.add('navm');
         ft.classList.add('fulltitlem');
         tf.classList.add('titlefm');
