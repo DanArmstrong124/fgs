@@ -51,6 +51,9 @@ setInterval(function(){
         ts.classList.add('titlesmt');
         body.classList.add('bgm')
         tbg.classList.add('titlebgm');
+        
+        ft.classList.add('fulltitlem');
+        ft.classList.remove('fulltitle');
 
         tf.classList.remove('titlefm');
         nav.classList.remove('nav');
