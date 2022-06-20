@@ -120,3 +120,29 @@
     left: -100%;
     transition: all 3s;
 }
+
+.servicetwo{
+    position: fixed;
+    width: 80%;
+    height: 200px;
+    background: #3eb03e;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+    top: 370px;
+    z-index: 0;
+    right: -100%;
+    transition: all 3s;
+}
+
+.servicethree{
+    position: fixed;
+    width: 80%;
+    height: 200px;
+    background: #3eb03e;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+    top: 370px;
+    z-index: 0;
+    left: -100%;
+    transition: all 3s;
+}

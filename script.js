@@ -84,4 +84,15 @@ setInterval(function(){
         serone.classList.remove('serviceone');
         serone.classList.add('serviceonem');
     }
+
+    if (scrollY < 2800){
+        sertwo.classList.add('servicetwo');
+        sertwo.classList.remove('servicetwom');
+    }
+    if (scrollY > 2801){
+        sertwo.classList.remove('servicetwo');
+        sertwo.classList.add('servicetwom');
+        serone.classList.remove('serviceonem');
+        serone.classList.add('serviceone');
+    }
 },50);
