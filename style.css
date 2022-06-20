@@ -167,10 +167,40 @@
     top: 50%;
     transform: translateY(-50%);
     left: 20%;
+}    
+
+.soi{
+    width: 200px;
+    height: 200px;
+    background: red;
+    left: -100%;
+    top: 44%;
+    border-radius: 50%;
+    position: fixed;
+    transform: translateY(-50%);
+    transition: all 3s;
 }
 
-.soi{}
+.sti{
+    width: 200px;
+    height: 200px;
+    background: red;
+    left: 200%;
+    top: 44%;
+    border-radius: 50%;
+    position: fixed;
+    transform: translateY(-50%);
+    transition: all 3s;
+}
 
-.sti{}
-
-.sthi{}
+.sthi{
+    width: 200px;
+    height: 200px;
+    background: red;
+    left: -100%;
+    top: 44%;
+    border-radius: 50%;
+    position: fixed;
+    transform: translateY(-50%);
+    transition: all 3s;
+}
