@@ -172,7 +172,7 @@
 .soi{
     width: 200px;
     height: 200px;
-    background: red;
+    background: url('repair.jpg');;
     left: -100%;
     top: 44%;
     border-radius: 50%;
@@ -184,7 +184,7 @@
 .sti{
     width: 200px;
     height: 200px;
-    background: red;
+    background: url('hire.jpg');;
     left: 200%;
     top: 44%;
     border-radius: 50%;
@@ -196,7 +196,7 @@
 .sthi{
     width: 200px;
     height: 200px;
-    background: red;
+    background: url('coms.jpg');;
     left: -100%;
     top: 44%;
     border-radius: 50%;
