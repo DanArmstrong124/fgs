@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+    .nav {
+        height: 150px;
+        position: fixed;
+        width: 100%;
+        background: #f7f7f7;
+        transition: all 5s;
+    }
+    .fulltitle {
+        position: fixed;
+        top: 105px;
+        /* transform: translateY(-50%); */
+        left: 50px;
+        display: inline-block;
+        transition: all 5s;
+    }
+    
+    .titlef {
+        position: fixed;
+        top: 105px;
+        /* transform: translateY(-50%); */
+        left: 50px;
+        transition: all 5s;
+    }
+    
+    .titleh {
+        position: fixed;
+        top: 105px;
+        /* transform: translateY(-50%); */
+        left: 117px;
+        transition: all 5s;
+    }
+    
+    .titles {
+        position: fixed;
+        top: 105px;
+        /* transform: translateY(-50%); */
+        left: 151px;
+        transition: all 5s;
+    }
+    
+  }
