@@ -1,5 +1,6 @@
 let width = screen.width;
 
+var start = document.getElementById('enterthesite');
 var nav = document.getElementById('nav');
 var ft = document.getElementById('fulltitle');
 var tf = document.getElementById('titlef');
@@ -30,6 +31,7 @@ setInterval(function(){
         th.classList.remove('titlehm');
         ts.classList.remove('titlesm');
         body.classList.remove('bgm')
+        start.classList.remove('hide');
     }
     if ((scrollY > 250)&&(scrollY < 1000)){
         nav.classList.remove('nav');
@@ -37,6 +39,7 @@ setInterval(function(){
         tf.classList.remove('titlef');
         th.classList.remove('titleh');
         ts.classList.remove('titles');
+        start.classList.remove('hide');
 
         tf.classList.remove('titlefmt');
         th.classList.remove('titlehmt');
@@ -54,6 +57,7 @@ setInterval(function(){
         body.classList.remove('bgm')
     }
     if (scrollY > 1001){
+        start.classList.add('hide');
         nav.classList.add('navm');
         tf.classList.add('titlefmt');
         th.classList.add('titlehmt');
