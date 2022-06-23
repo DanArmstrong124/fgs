@@ -122,6 +122,7 @@ setInterval(function(){
     }
 },50);
 } else { //MOBILE
+    alert('MOBILE');
     setInterval(function(){
         if (scrollY < 100) {
             nav.classList.add('nav');
