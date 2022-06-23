@@ -16,11 +16,13 @@
     color: black;
     z-index: 1;
     opacity: 100;
+    transition: all .3s;
 }
 
 .hide{
     opacity: 0 !important;
     z-index: 0 !important;
+    transition: all .3s;
 }
 
 .title{
