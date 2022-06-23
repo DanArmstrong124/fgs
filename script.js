@@ -139,7 +139,7 @@ setInterval(function(){
             ts.classList.remove('titlesm');
             body.classList.remove('bgm')
         }
-        if ((scrollY > 250)&&(scrollY < 1000)){
+        if ((scrollY > 150)&&(scrollY < 750)){
             nav.classList.remove('nav');
             ft.classList.remove('fulltitle');
             tf.classList.remove('titlef');
@@ -161,7 +161,7 @@ setInterval(function(){
             body.classList.add('bg')
             body.classList.remove('bgm')
         }
-        if (scrollY > 1001){
+        if (scrollY > 751){
             nav.classList.add('navm');
             tf.classList.add('titlefmt');
             th.classList.add('titlehmt');
@@ -180,48 +180,48 @@ setInterval(function(){
             body.classList.remove('bg');
         }
     
-        if (scrollY < 2000){
+        if (scrollY < 1400){
             sertext.classList.add('servicetext');
             sertext.classList.remove('servicetextm');
         }
-        if (scrollY > 2001){
+        if (scrollY > 1401){
             sertext.classList.remove('servicetext');
             sertext.classList.add('servicetextm');
         }
     
-        if ((scrollY < 2400)||(scrollY > 3201)){
+        if ((scrollY < 2000)||(scrollY > 2601)){
             serone.classList.add('serviceone');
             serone.classList.remove('serviceonem');
             soi.classList.add('soi');
             soi.classList.remove('soim');
         }
-        if ((scrollY > 2401)&&(scrollY < 3200)){
+        if ((scrollY > 2001)&&(scrollY < 2600)){
             serone.classList.remove('serviceone');
             serone.classList.add('serviceonem');
             soi.classList.remove('soi');
             soi.classList.add('soim');
         }
     
-        if ((scrollY < 3600)||(scrollY > 4401)){
+        if ((scrollY < 3000)||(scrollY > 3601)){
             sertwo.classList.add('servicetwo');
             sertwo.classList.remove('servicetwom');
             sti.classList.add('sti');
             sti.classList.remove('stim');
         }
-        if ((scrollY > 3601)&&(scrollY < 4400)){
+        if ((scrollY > 3001)&&(scrollY < 3600)){
             sertwo.classList.remove('servicetwo');
             sertwo.classList.add('servicetwom');
             sti.classList.remove('sti');
             sti.classList.add('stim');
         }
     
-        if ((scrollY < 5000)||(scrollY > 5801)){
+        if ((scrollY < 4000)||(scrollY > 4601)){
             serthree.classList.add('servicethree');
             serthree.classList.remove('servicethreem');
             sthi.classList.add('sthi');
             sthi.classList.remove('sthim');
         }
-        if ((scrollY > 5001)&&(scrollY < 5800)){
+        if ((scrollY > 4001)&&(scrollY < 4600)){
             serthree.classList.remove('servicethree');
             serthree.classList.add('servicethreem');
             sthi.classList.remove('sthi');
