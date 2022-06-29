@@ -1,6 +1,8 @@
 let width = screen.width;
 
 var start = document.getElementById('enterthesite');
+var no = document.getElementById('nextone');
+var nt = document.getElementById('nexttwo');
 var nav = document.getElementById('nav');
 var ft = document.getElementById('fulltitle');
 var tf = document.getElementById('titlef');
@@ -88,12 +90,14 @@ setInterval(function(){
     if ((scrollY < 2400)||(scrollY > 3201)){
         serone.classList.add('serviceone');
         serone.classList.remove('serviceonem');
+        so.classList.add('hide');
         soi.classList.add('soi');
         soi.classList.remove('soim');
     }
     if ((scrollY > 2401)&&(scrollY < 3200)){
         serone.classList.remove('serviceone');
         serone.classList.add('serviceonem');
+        so.classList.remove('hide');
         soi.classList.remove('soi');
         soi.classList.add('soim');
     }
@@ -101,12 +105,14 @@ setInterval(function(){
     if ((scrollY < 3600)||(scrollY > 4401)){
         sertwo.classList.add('servicetwo');
         sertwo.classList.remove('servicetwom');
+        st.classList.add('hide');
         sti.classList.add('sti');
         sti.classList.remove('stim');
     }
     if ((scrollY > 3601)&&(scrollY < 4400)){
         sertwo.classList.remove('servicetwo');
         sertwo.classList.add('servicetwom');
+        st.classList.remove('hide');
         sti.classList.remove('sti');
         sti.classList.add('stim');
     }
