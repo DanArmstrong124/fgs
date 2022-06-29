@@ -90,31 +90,31 @@ setInterval(function(){
     if ((scrollY < 2400)||(scrollY > 3201)){
         serone.classList.add('serviceone');
         serone.classList.remove('serviceonem');
-        so.classList.add('hide');
         soi.classList.add('soi');
         soi.classList.remove('soim');
+        so.classList.add('hide');
     }
     if ((scrollY > 2401)&&(scrollY < 3200)){
         serone.classList.remove('serviceone');
         serone.classList.add('serviceonem');
-        so.classList.remove('hide');
         soi.classList.remove('soi');
         soi.classList.add('soim');
+        so.classList.remove('hide');
     }
 
     if ((scrollY < 3600)||(scrollY > 4401)){
         sertwo.classList.add('servicetwo');
         sertwo.classList.remove('servicetwom');
-        st.classList.add('hide');
         sti.classList.add('sti');
         sti.classList.remove('stim');
+        st.classList.add('hide');
     }
     if ((scrollY > 3601)&&(scrollY < 4400)){
         sertwo.classList.remove('servicetwo');
         sertwo.classList.add('servicetwom');
-        st.classList.remove('hide');
         sti.classList.remove('sti');
         sti.classList.add('stim');
+        st.classList.remove('hide');
     }
 
     if ((scrollY < 5000)||(scrollY > 5801)){
