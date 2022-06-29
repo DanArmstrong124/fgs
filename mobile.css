@@ -165,4 +165,13 @@
   .soim{left:60%;}
   .stim{left:60%;}
   .sthim{left:60%;}
+
+  .titlef,
+  .titleh,
+  .titles,
+  .titlesm,
+  .titlefm,
+  .titlehm{
+    opacity: 0;
+  }
   }
