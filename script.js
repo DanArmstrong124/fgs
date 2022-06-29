@@ -1,8 +1,8 @@
 let width = screen.width;
 
 var start = document.getElementById('enterthesite');
-var no = document.getElementById('nextone');
-var nt = document.getElementById('nexttwo');
+var so = document.getElementById('nextone');
+var st = document.getElementById('nexttwo');
 var nav = document.getElementById('nav');
 var ft = document.getElementById('fulltitle');
 var tf = document.getElementById('titlef');
