@@ -149,12 +149,20 @@
         left:80%;
     }
     .sot{left:12%;}
-  }
-
+    
   .stt{
     left:29%;
   }
 
   .stht{
     left: 12%;
+  }
+
+  .servicetextm{left:40%;}
+
+  #nextone{left:20%;}
+  #nexttwo{left:20%;}
+  .soim{left:60%;}
+  .stim{left:60%;}
+  .sthim{left:60%;}
   }
