@@ -174,4 +174,9 @@
   .titlehm{
     opacity: 0;
   }
+  .titlefmt,
+  .titlehmt,
+  .titlesmt{
+    opacity: 1;
+  }
   }
