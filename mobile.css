@@ -88,6 +88,23 @@
     #topbtn{
         left:80%;
     }
+    .soim{left:60%;}
+    .stim{left:60%;}
+    .sthim{left:60%;}
+  
+    .titlef,
+    .titleh,
+    .titles,
+    .titlesm,
+    .titlefm,
+    .titlehm{
+      opacity: 0;
+    }
+    .titlefmt,
+    .titlehmt,
+    .titlesmt{
+      opacity: 1;
+    }
   }
 
   @media only screen and (max-width: 300px) {
